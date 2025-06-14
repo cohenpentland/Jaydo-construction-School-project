@@ -47,22 +47,6 @@ This app was developed to demonstrate:
 ![image](https://github.com/user-attachments/assets/2ebf0f6b-1412-4546-a562-bd29c34d7ac2)
 
 
-🔧 Installation
-
-    Clone the repository:
-
-git clone https://github.com/cohenpentland/Jaydo-construction-School-project.git
-cd Jaydo-construction-School-project
-
-Install dependencies:
-
-npm install
-
-Run the app:
-
-    npm start
-
-    Visit http://localhost:3000 in your browser.
 
 🙋‍♂️ Author
 
