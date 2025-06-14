@@ -1,5 +1,5 @@
 🏗️ Jaydo Construction School Project
- web application simulating construction project workflows, inspired by real-world companies like Jaydo. Built to learn and showcase front end development and database integration.
+ visual basic application simulating construction project workflows, inspired by real-world companies like Jaydo. Built to learn and showcase front end development and database integration.
  
 📘 About the Project
 
