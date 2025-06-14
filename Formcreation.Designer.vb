@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Formcreation
+Partial Class formcreation
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,14 +24,14 @@ Partial Class Formcreation
     Private Sub InitializeComponent()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.cmbdataset = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnload = New System.Windows.Forms.Button()
+        Me.btnclear = New System.Windows.Forms.Button()
         Me.lstrawdatapreview = New System.Windows.Forms.ListBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.lstformpreview = New System.Windows.Forms.ListBox()
+        Me.btngeneratereport = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.btnsendemail = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -54,23 +54,23 @@ Partial Class Formcreation
         Me.cmbdataset.Size = New System.Drawing.Size(256, 33)
         Me.cmbdataset.TabIndex = 2
         '
-        'Button1
+        'btnload
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 620)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(126, 45)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "btnload"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnload.Location = New System.Drawing.Point(12, 620)
+        Me.btnload.Name = "btnload"
+        Me.btnload.Size = New System.Drawing.Size(126, 45)
+        Me.btnload.TabIndex = 3
+        Me.btnload.Text = "btnload"
+        Me.btnload.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnclear
         '
-        Me.Button2.Location = New System.Drawing.Point(144, 620)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(126, 45)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "btnclear"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnclear.Location = New System.Drawing.Point(144, 620)
+        Me.btnclear.Name = "btnclear"
+        Me.btnclear.Size = New System.Drawing.Size(126, 45)
+        Me.btnclear.TabIndex = 4
+        Me.btnclear.Text = "btnclear"
+        Me.btnclear.UseVisualStyleBackColor = True
         '
         'lstrawdatapreview
         '
@@ -92,24 +92,24 @@ Partial Class Formcreation
         Me.Label3.TabIndex = 11
         Me.Label3.Text = "6:15pm thursday"
         '
-        'ListBox1
+        'lstformpreview
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 25
-        Me.ListBox1.Location = New System.Drawing.Point(310, 178)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(774, 379)
-        Me.ListBox1.TabIndex = 12
+        Me.lstformpreview.FormattingEnabled = True
+        Me.lstformpreview.ItemHeight = 25
+        Me.lstformpreview.Location = New System.Drawing.Point(310, 178)
+        Me.lstformpreview.Name = "lstformpreview"
+        Me.lstformpreview.Size = New System.Drawing.Size(774, 379)
+        Me.lstformpreview.TabIndex = 12
         '
-        'Button3
+        'btngeneratereport
         '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button3.Location = New System.Drawing.Point(310, 581)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(774, 45)
-        Me.Button3.TabIndex = 13
-        Me.Button3.Text = "btnGeneratereport"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.btngeneratereport.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btngeneratereport.Location = New System.Drawing.Point(310, 581)
+        Me.btngeneratereport.Name = "btngeneratereport"
+        Me.btngeneratereport.Size = New System.Drawing.Size(774, 45)
+        Me.btngeneratereport.TabIndex = 13
+        Me.btngeneratereport.Text = "btnGeneratereport"
+        Me.btngeneratereport.UseVisualStyleBackColor = False
         '
         'TextBox1
         '
@@ -118,14 +118,14 @@ Partial Class Formcreation
         Me.TextBox1.Size = New System.Drawing.Size(390, 31)
         Me.TextBox1.TabIndex = 14
         '
-        'Button4
+        'btnsendemail
         '
-        Me.Button4.Location = New System.Drawing.Point(728, 632)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(354, 38)
-        Me.Button4.TabIndex = 15
-        Me.Button4.Text = "btnsendemail"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnsendemail.Location = New System.Drawing.Point(728, 632)
+        Me.btnsendemail.Name = "btnsendemail"
+        Me.btnsendemail.Size = New System.Drawing.Size(354, 38)
+        Me.btnsendemail.TabIndex = 15
+        Me.btnsendemail.Text = "btnsendemail"
+        Me.btnsendemail.UseVisualStyleBackColor = True
         '
         'Button5
         '
@@ -136,24 +136,24 @@ Partial Class Formcreation
         Me.Button5.Text = "btnmainmenu"
         Me.Button5.UseVisualStyleBackColor = True
         '
-        'Form3
+        'formcreation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1096, 729)
         Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.btnsendemail)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.btngeneratereport)
+        Me.Controls.Add(Me.lstformpreview)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.lstrawdatapreview)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnclear)
+        Me.Controls.Add(Me.btnload)
         Me.Controls.Add(Me.cmbdataset)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "Form3"
+        Me.Name = "formcreation"
         Me.Text = "Form3"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -163,13 +163,13 @@ Partial Class Formcreation
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents cmbdataset As ComboBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnload As Button
+    Friend WithEvents btnclear As Button
     Friend WithEvents lstrawdatapreview As ListBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Button3 As Button
+    Friend WithEvents lstformpreview As ListBox
+    Friend WithEvents btngeneratereport As Button
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button4 As Button
+    Friend WithEvents btnsendemail As Button
     Friend WithEvents Button5 As Button
 End Class

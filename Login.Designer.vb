@@ -35,7 +35,7 @@ Partial Class Login
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(200, 538)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(414, 31)
         Me.TextBox1.TabIndex = 2
@@ -43,7 +43,7 @@ Partial Class Login
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(200, 635)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(414, 31)
         Me.TextBox2.TabIndex = 3
@@ -51,7 +51,7 @@ Partial Class Login
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(200, 717)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(6)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(204, 44)
         Me.Button1.TabIndex = 4
@@ -61,7 +61,7 @@ Partial Class Login
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(436, 717)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(6)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(182, 44)
         Me.Button2.TabIndex = 5
@@ -71,7 +71,7 @@ Partial Class Login
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Jaydo_construction.My.Resources.Resources.transmission_pipeline_refinery
-        Me.PictureBox2.Location = New System.Drawing.Point(798, -2)
+        Me.PictureBox2.Location = New System.Drawing.Point(798, -3)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(6)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(808, 873)
@@ -90,7 +90,7 @@ Partial Class Login
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'Form1
+        'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -102,8 +102,8 @@ Partial Class Login
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
-        Me.Name = "Form1"
+        Me.Margin = New System.Windows.Forms.Padding(6)
+        Me.Name = "Login"
         Me.Text = "  "
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

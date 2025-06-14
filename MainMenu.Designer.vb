@@ -23,56 +23,57 @@ Partial Class MainMenu
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainMenu))
-        Me.Lstnotifications = New System.Windows.Forms.ListBox()
+        Me.lstnotifications = New System.Windows.Forms.ListBox()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btndatainput = New System.Windows.Forms.Button()
+        Me.btnsortandalysedata = New System.Windows.Forms.Button()
+        Me.btnformcreation = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
+        Me.btncontacts = New System.Windows.Forms.Button()
+        Me.btntodolist = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnlogout = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Lstnotifications
+        'lstnotifications
         '
-        Me.Lstnotifications.FormattingEnabled = True
-        Me.Lstnotifications.ItemHeight = 25
-        Me.Lstnotifications.Location = New System.Drawing.Point(869, 165)
-        Me.Lstnotifications.Name = "Lstnotifications"
-        Me.Lstnotifications.Size = New System.Drawing.Size(242, 429)
-        Me.Lstnotifications.TabIndex = 2
+        Me.lstnotifications.FormattingEnabled = True
+        Me.lstnotifications.ItemHeight = 25
+        Me.lstnotifications.Location = New System.Drawing.Point(869, 165)
+        Me.lstnotifications.Name = "lstnotifications"
+        Me.lstnotifications.Size = New System.Drawing.Size(242, 429)
+        Me.lstnotifications.TabIndex = 2
         '
-        'Button1
+        'btndatainput
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 165)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(243, 431)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "btndatainput"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btndatainput.Location = New System.Drawing.Point(12, 165)
+        Me.btndatainput.Name = "btndatainput"
+        Me.btndatainput.Size = New System.Drawing.Size(243, 431)
+        Me.btndatainput.TabIndex = 3
+        Me.btndatainput.Text = "btndatainput"
+        Me.btndatainput.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnsortandalysedata
         '
-        Me.Button2.Location = New System.Drawing.Point(284, 165)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(243, 431)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "btnsortanalysedata"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnsortandalysedata.Location = New System.Drawing.Point(284, 165)
+        Me.btnsortandalysedata.Name = "btnsortandalysedata"
+        Me.btnsortandalysedata.Size = New System.Drawing.Size(243, 431)
+        Me.btnsortandalysedata.TabIndex = 4
+        Me.btnsortandalysedata.Text = "btnsortandalysedata"
+        Me.btnsortandalysedata.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        Me.btnsortandalysedata.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnformcreation
         '
-        Me.Button3.Location = New System.Drawing.Point(553, 165)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(243, 431)
-        Me.Button3.TabIndex = 5
-        Me.Button3.Text = "btnformcreation"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnformcreation.Location = New System.Drawing.Point(553, 165)
+        Me.btnformcreation.Name = "btnformcreation"
+        Me.btnformcreation.Size = New System.Drawing.Size(243, 431)
+        Me.btnformcreation.TabIndex = 5
+        Me.btnformcreation.Text = "btnformcreation"
+        Me.btnformcreation.UseVisualStyleBackColor = True
         '
         'Label2
         '
@@ -85,23 +86,23 @@ Partial Class MainMenu
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Notification center"
         '
-        'Button5
+        'btncontacts
         '
-        Me.Button5.Location = New System.Drawing.Point(12, 628)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(375, 72)
-        Me.Button5.TabIndex = 8
-        Me.Button5.Text = "btncontacts"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btncontacts.Location = New System.Drawing.Point(12, 628)
+        Me.btncontacts.Name = "btncontacts"
+        Me.btncontacts.Size = New System.Drawing.Size(375, 72)
+        Me.btncontacts.TabIndex = 8
+        Me.btncontacts.Text = "btncontacts"
+        Me.btncontacts.UseVisualStyleBackColor = True
         '
-        'Button6
+        'btntodolist
         '
-        Me.Button6.Location = New System.Drawing.Point(428, 628)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(368, 72)
-        Me.Button6.TabIndex = 9
-        Me.Button6.Text = "Btntodolist"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.btntodolist.Location = New System.Drawing.Point(428, 628)
+        Me.btntodolist.Name = "btntodolist"
+        Me.btntodolist.Size = New System.Drawing.Size(368, 72)
+        Me.btntodolist.TabIndex = 9
+        Me.btntodolist.Text = "Btntodolist"
+        Me.btntodolist.UseVisualStyleBackColor = True
         '
         'Label3
         '
@@ -114,24 +115,14 @@ Partial Class MainMenu
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "6:15pm thursday"
         '
-        'Button4
+        'btnlogout
         '
-        Me.Button4.Location = New System.Drawing.Point(869, 628)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(242, 72)
-        Me.Button4.TabIndex = 11
-        Me.Button4.Text = "btnLogout"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Jaydo_construction.My.Resources.Resources.ChatGPT_Image_May_23__2025__12_52_58_PM_modified
-        Me.PictureBox1.Location = New System.Drawing.Point(-139, -33)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(505, 214)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.btnlogout.Location = New System.Drawing.Point(869, 628)
+        Me.btnlogout.Name = "btnlogout"
+        Me.btnlogout.Size = New System.Drawing.Size(242, 72)
+        Me.btnlogout.TabIndex = 11
+        Me.btnlogout.Text = "btnLogout"
+        Me.btnlogout.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -143,25 +134,35 @@ Partial Class MainMenu
         Me.Label1.Size = New System.Drawing.Size(0, 25)
         Me.Label1.TabIndex = 12
         '
-        'Form2
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Jaydo_construction.My.Resources.Resources.ChatGPT_Image_May_23__2025__12_52_58_PM_modified
+        Me.PictureBox1.Location = New System.Drawing.Point(-139, -33)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(505, 214)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
+        'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1119, 746)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.btnlogout)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.btntodolist)
+        Me.Controls.Add(Me.btncontacts)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Lstnotifications)
+        Me.Controls.Add(Me.btnformcreation)
+        Me.Controls.Add(Me.btnsortandalysedata)
+        Me.Controls.Add(Me.btndatainput)
+        Me.Controls.Add(Me.lstnotifications)
         Me.Controls.Add(Me.PictureBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Form2"
+        Me.Name = "MainMenu"
         Me.Text = "Form2"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -170,15 +171,15 @@ Partial Class MainMenu
     End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Lstnotifications As ListBox
+    Friend WithEvents lstnotifications As ListBox
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btndatainput As Button
+    Friend WithEvents btnsortandalysedata As Button
+    Friend WithEvents btnformcreation As Button
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
+    Friend WithEvents btncontacts As Button
+    Friend WithEvents btntodolist As Button
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button4 As Button
+    Friend WithEvents btnlogout As Button
     Friend WithEvents Label1 As Label
 End Class

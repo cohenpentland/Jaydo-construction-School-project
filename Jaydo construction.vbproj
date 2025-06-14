@@ -54,6 +54,9 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -79,6 +82,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="datainputform.Designer.vb">
+      <DependentUpon>datainputform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datainputform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analysedata.Designer.vb">
+      <DependentUpon>analysedata.vb</DependentUpon>
+    </Compile>
+    <Compile Include="analysedata.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -92,10 +107,10 @@
     <Compile Include="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formcreation.Designer.vb">
-      <DependentUpon>Formcreation.vb</DependentUpon>
+    <Compile Include="formcreation.Designer.vb">
+      <DependentUpon>formcreation.vb</DependentUpon>
     </Compile>
-    <Compile Include="Formcreation.vb">
+    <Compile Include="formcreation.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -116,14 +131,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="datainputform.resx">
+      <DependentUpon>datainputform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analysedata.resx">
+      <DependentUpon>analysedata.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formcreation.resx">
-      <DependentUpon>Formcreation.vb</DependentUpon>
+    <EmbeddedResource Include="formcreation.resx">
+      <DependentUpon>formcreation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -146,6 +167,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Resources\Jaydo.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +182,7 @@
   <ItemGroup>
     <Content Include="J.ico" />
     <Content Include="J_only.ico" />
+    <Content Include="Resources\J.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
