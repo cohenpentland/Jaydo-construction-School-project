@@ -50,7 +50,7 @@ Public Class FormCreation
     End Sub
 
     Private Async Function GetChatGPTReportAsync(csvData As String) As Task(Of String)
-        Dim apiKey As String = "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"
+        Dim apiKey As String = "replace with own key"
         If String.IsNullOrWhiteSpace(apiKey) Then
             MessageBox.Show("OpenAI API key is missing in the code.")
             Return ""
