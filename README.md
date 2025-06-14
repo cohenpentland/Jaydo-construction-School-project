@@ -40,7 +40,10 @@ This app was developed to demonstrate:
     Applying classroom knowledge to a themed project
 
 📷 Screenshots
+
 ![image](https://github.com/user-attachments/assets/a275fb7e-523a-44dd-861f-302c7fc14b59)
+
+
 ![image](https://github.com/user-attachments/assets/2ebf0f6b-1412-4546-a562-bd29c34d7ac2)
 
 
